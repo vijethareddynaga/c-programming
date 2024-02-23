@@ -1,0 +1,18 @@
+// C Program to Find Area of Rectangle
+#include <stdio.h>
+int main(){
+    int length, breadth, area;
+    
+    // Asking for input
+    printf("Enter the length of the rectangle: ");
+    scanf("%d", &length);
+    printf("Enter the breadth of the rectangle: ");
+    scanf("%d", &breadth);
+    
+    // Calculating Area
+    area = length * breadth;
+    
+    // Displaying the output
+    printf("Area of the Rectangle: %d", area);
+    return 0;
+}
