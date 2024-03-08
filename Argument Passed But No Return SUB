@@ -1,0 +1,16 @@
+//Argument Passed But No Return Value
+#include<stdio.h>
+void sub(int a,int b);
+
+void sub(int a,int b)
+{
+	int difference;
+	difference=a-b;
+	printf("subtraction=%d\n",difference);
+}
+int main()
+{
+	int a=20,b=10;
+	sub(a,b);
+	return 0;
+}
