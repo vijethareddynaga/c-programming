@@ -1,0 +1,16 @@
+//Argument Passed But No Return Value
+#include<stdio.h>
+void add(int a,int b);
+
+void add(int a,int b)
+{
+	int addition;
+	addition=a+b;
+	printf("addition=%d\n",addition);
+}
+int main()
+{
+	int a=20,b=10;
+	add(a,b);
+	return 0;
+}
