@@ -1,0 +1,15 @@
+//No Argument Passed and No Return Value
+#include<stdio.h>
+void mul();
+
+void mul()
+{
+	int a=20,b=10,mul;
+	mul=a*b;
+	printf("multiplication=%d\n",mul);
+}
+int main()
+{
+	mul();
+	return 0;
+}
